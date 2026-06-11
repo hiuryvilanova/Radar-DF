@@ -339,6 +339,7 @@ export default function AttendancesView({ cities, themes, users, token }: Attend
                   </label>
                   <input
                     type="datetime-local"
+                    lang="pt-BR"
                     value={attendanceDatetime}
                     onChange={(e) => setAttendanceDatetime(e.target.value)}
                     required
@@ -443,6 +444,7 @@ export default function AttendancesView({ cities, themes, users, token }: Attend
                   </label>
                   <input
                     type="date"
+                    lang="pt-BR"
                     value={nextReturnDate}
                     onChange={(e) => setNextReturnDate(e.target.value)}
                     className="w-full bg-slate-50 border border-slate-200 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 rounded-lg py-2 px-3 text-slate-800 text-sm outline-none transition-all"

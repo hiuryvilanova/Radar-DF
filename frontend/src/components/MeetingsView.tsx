@@ -366,6 +366,7 @@ export default function MeetingsView({ cities, users, token }: MeetingsViewProps
                   </label>
                   <input
                     type="datetime-local"
+                    lang="pt-BR"
                     value={meetingDatetime}
                     onChange={(e) => setMeetingDatetime(e.target.value)}
                     required
@@ -559,6 +560,7 @@ export default function MeetingsView({ cities, users, token }: MeetingsViewProps
                   </label>
                   <input
                     type="date"
+                    lang="pt-BR"
                     value={returnDate}
                     onChange={(e) => setReturnDate(e.target.value)}
                     className="w-full bg-slate-50 border border-slate-200 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 rounded-lg py-2 px-3 text-slate-800 text-sm outline-none transition-all"

@@ -132,6 +132,7 @@ export default function DossierView({ initialCityId, cities, token }: DossierVie
           </label>
           <input
             type="date"
+            lang="pt-BR"
             value={startDate}
             onChange={(e) => setStartDate(e.target.value)}
             className="w-full bg-slate-50 border border-slate-200 focus:border-emerald-500 rounded-lg py-2 px-3 text-sm outline-none transition-all"
@@ -145,6 +146,7 @@ export default function DossierView({ initialCityId, cities, token }: DossierVie
           </label>
           <input
             type="date"
+            lang="pt-BR"
             value={endDate}
             onChange={(e) => setEndDate(e.target.value)}
             className="w-full bg-slate-50 border border-slate-200 focus:border-emerald-500 rounded-lg py-2 px-3 text-sm outline-none transition-all"

@@ -379,6 +379,7 @@ export default function ActionsView({ cities, themes, users, token }: ActionsVie
                   </label>
                   <input
                     type="datetime-local"
+                    lang="pt-BR"
                     value={deadline}
                     onChange={(e) => setDeadline(e.target.value)}
                     required

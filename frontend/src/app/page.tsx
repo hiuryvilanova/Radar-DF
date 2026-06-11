@@ -419,6 +419,7 @@ export default function Home() {
               <label className="block text-slate-500 font-semibold mb-1">Início</label>
               <input
                 type="date"
+                lang="pt-BR"
                 value={dashStartDate}
                 onChange={(e) => setDashStartDate(e.target.value)}
                 className="bg-slate-50 border border-slate-200 focus:border-emerald-500 rounded-lg py-1 px-2.5 outline-none text-[11px]"
@@ -428,6 +429,7 @@ export default function Home() {
               <label className="block text-slate-500 font-semibold mb-1">Fim</label>
               <input
                 type="date"
+                lang="pt-BR"
                 value={dashEndDate}
                 onChange={(e) => setDashEndDate(e.target.value)}
                 className="bg-slate-50 border border-slate-200 focus:border-emerald-500 rounded-lg py-1 px-2.5 outline-none text-[11px]"
